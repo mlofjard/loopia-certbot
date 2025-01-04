@@ -5,7 +5,6 @@ Edit the following files to suit your needs:
 `loopia/entrypoint_staging.sh`  
 `loopia/creatednsrecord.py`  
 `loopia/removednsrecord.py`  
-My example is for two wildcard certificates for *.lofjard.se and *.int.lofjard.se respectively.
 
 ### Run with:
 ```

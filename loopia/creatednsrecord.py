@@ -11,7 +11,7 @@ def main():
     global_domain_server_url = 'https://api.loopia.se/RPCSERV'   
   
     domain = 'lofjard.se'
-    sub_domain = '_acme-challenge.int'
+    sub_domain = sys.argv[5]
   
     zone_recone = { 'type': 'TXT',
                     'ttl': 300,

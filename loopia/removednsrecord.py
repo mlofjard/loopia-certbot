@@ -11,7 +11,7 @@ def main():
     global_domain_server_url = 'https://api.loopia.se/RPCSERV'   
   
     domain = 'lofjard.se'
-    sub_domain = '_acme-challenge.int'
+    sub_domain = sys.argv[3]
   
     context = ssl.create_default_context()
     client = xmlrpc.client.ServerProxy(global_domain_server_url, encoding = 'utf-8', context = context)
